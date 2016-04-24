@@ -1,0 +1,11 @@
+==base _SysBase
+==basetype struct ExecBase *
+==libname exec_dbg.library
+==public
+==include <exec/types.h>
+==bias 504
+==version 30
+VOID RawIOInit() ()
+BYTE RawMayGetChar() ()
+VOID RawPutChar(UBYTE c) (d0)
+==end
